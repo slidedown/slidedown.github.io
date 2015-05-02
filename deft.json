@@ -1,0 +1,11 @@
+{
+  "destination": "lib",
+
+  "dependencies": [
+    ["slidedown/slidedown", "dist/slidedown.build.js"],
+    ["slidedown/slidedown", "dist/slidedown.build.css"],
+    ["EightMedia/hammer.js", "hammer.js"],
+    ["isagalaev/highlight.js", "src/styles/solarized_dark.css"],
+    ["knsv/mermaid", "dist/mermaid.slim.min.js"]
+  ]
+}
