@@ -17,6 +17,13 @@
     </style>
 
     <script>
+        // Customisation of Slidedown
+        // for marked setting options with default value, please ref https://github.com/chjj/marked#usage
+        // Remark: Slidedown sets `marked.breaks` to true by default.
+        Slidedown.setOptions({
+            marked: {}
+        });
+
         function parseQuery(querystring) {
             // remove any preceding url and split
             querystring = querystring.substring(querystring.indexOf('?')+1).split('&');
